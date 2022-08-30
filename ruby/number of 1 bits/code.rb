@@ -8,3 +8,7 @@ def hamming_weight(n)
 
   counter
 end
+
+def hamming_weight2(n)
+  n.to_s(2).count(?1)
+end
