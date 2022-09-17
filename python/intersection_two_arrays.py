@@ -1,4 +1,5 @@
- def intersect(self, nums1: List[int], nums2: List[int]) -> List[int]:
+class Solution:
+    def intersect(self, nums1: List[int], nums2: List[int]) -> List[int]:
         i=0
         j=0
         l=[]
