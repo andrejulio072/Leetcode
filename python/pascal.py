@@ -3,6 +3,7 @@ class Solution:
         a=[]
 
         for i in range(0,numRows):
+            # aarrays of zeros
             a.append([0 for x in range(i+1)])
         for i in range(0,numRows):
             for j in range(0,i+1):
