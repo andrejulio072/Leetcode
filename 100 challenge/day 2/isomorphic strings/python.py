@@ -1,5 +1,6 @@
 # Time Complexity : O(n)
 class Solution(object):
+
     def isIsomorphic(self, s, t):
         map1 = []
         map2 = []
@@ -12,7 +13,8 @@ class Solution(object):
         return False
 
 
-    class Solution(object):
+class Solution(object):
+
     def isIsomorphic(self, s, t):
         s2t, t2s = {}, {}
         for i in range(len(s)):
@@ -54,6 +56,6 @@ class Solution(object):
         for i in xrange(len(s)):
             if d1[ord(s[i])] != d2[ord(t[i])]:
                 return False
-            d1[ord(s[i])] = i+1
-            d2[ord(t[i])] = i+1
+            d1[ord(s[i])] = i + 1
+            d2[ord(t[i])] = i + 1
         return True
